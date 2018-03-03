@@ -11,8 +11,6 @@
 //SCK         PB5   - Pino SCK
 
 
-
-
 void Spi_init(void)
 {
 	//Configura SCK e MOSI como saidas
