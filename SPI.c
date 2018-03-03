@@ -6,10 +6,10 @@
 
 #include <avr/io.h>
 
-#define DDR_SPI     DDRB  // Port de direcionamento SPI
-#define MOSI        PB3   // Pino MOSI
-#define SCK         PB5   // Pino SCK
-#define SPI_PORT    PORTB // Pino SPI físico
+//MOSI        PB3   - Pino MOSI
+//MISO	      PB4   - Pino MISO
+//SCK         PB5   - Pino SCK
+
 
 
 
