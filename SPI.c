@@ -18,7 +18,7 @@ void Spi_init(void)
     	
 	/* Inicia SPI, ajusta de frequencia fck/16 */   // >>
 	//Frequencia de Clock SPI = 1Mhz
-	SPCR = (1<<SPE) | (1<<MSTR) | (1<<SPR0);
+	SPCR |= (1<<SPE) | (1<<MSTR) | (1<<SPR0);
 }
 
 uint8_t Spi_write(uint8_t data)
